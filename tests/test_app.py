@@ -1,4 +1,8 @@
 import importlib
+from concurrent.futures import ThreadPoolExecutor
+import time
+
+import pytest
 
 
 app_module = importlib.import_module("src.app")
@@ -68,6 +72,33 @@ def test_signup_rejects_full_activity(client):
     assert response.status_code == 400
     assert response.json()["detail"] == "Activity is full"
     assert "last-student@example.com" not in activity["participants"]
+
+
+def test_signup_serializes_capacity_check_and_insert():
+    activity = app_module.activities["Art Club"]
+    activity["participants"] = []
+    activity["max_participants"] = 1
+
+    app_module.signup_lock.acquire()
+    executor = ThreadPoolExecutor(max_workers=1)
+    try:
+        signup = executor.submit(
+            app_module.signup_for_activity,
+            "Art Club",
+            "student@example.com",
+        )
+        time.sleep(0.05)
+        assert not signup.done()
+        activity["participants"].append("existing@example.com")
+    finally:
+        app_module.signup_lock.release()
+        executor.shutdown()
+
+    with pytest.raises(app_module.HTTPException) as error:
+        signup.result()
+
+    assert error.value.status_code == 400
+    assert error.value.detail == "Activity is full"
 
 
 def test_cancel_signup_removes_participant(client):
