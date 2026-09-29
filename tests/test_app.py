@@ -2,6 +2,8 @@ import importlib
 from concurrent.futures import ThreadPoolExecutor
 import time
 
+import pytest
+
 
 app_module = importlib.import_module("src.app")
 
