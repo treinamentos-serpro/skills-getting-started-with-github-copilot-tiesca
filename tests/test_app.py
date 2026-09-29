@@ -80,18 +80,19 @@ def test_signup_serializes_capacity_check_and_insert():
     activity["max_participants"] = 1
 
     app_module.signup_lock.acquire()
+    executor = ThreadPoolExecutor(max_workers=1)
     try:
-        with ThreadPoolExecutor(max_workers=1) as executor:
-            signup = executor.submit(
-                app_module.signup_for_activity,
-                "Art Club",
-                "student@example.com",
-            )
-            time.sleep(0.05)
-            assert not signup.done()
-            activity["participants"].append("existing@example.com")
+        signup = executor.submit(
+            app_module.signup_for_activity,
+            "Art Club",
+            "student@example.com",
+        )
+        time.sleep(0.05)
+        assert not signup.done()
+        activity["participants"].append("existing@example.com")
     finally:
         app_module.signup_lock.release()
+        executor.shutdown()
 
     with pytest.raises(app_module.HTTPException) as error:
         signup.result()
