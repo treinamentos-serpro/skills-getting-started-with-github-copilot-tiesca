@@ -50,7 +50,7 @@ Em resumo, você pode pensar no Copilot como um colega de trabalho bem especiali
       # Validate student is not already signed up
       ```
 
-      <img width="700" alt="sugestão em texto sombreado do Copilot no editor" src="../images/shadow-text.gif" />
+      <img width="700" alt="sugestão em texto sombreado do Copilot no editor" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/shadow-text.gif?raw=true" />
 
    1. Pressione `Tab` para aceitar a sugestão do Copilot e converter o texto sombreado em código.
 
@@ -91,7 +91,7 @@ O **Inline Chat** e o painel do **Copilot Chat** são parecidos, mas diferem no 
 
 1. Selecione todo o dicionário `activities` clicando e arrastando o mouse do topo até o final do dicionário. Isso ajuda a fornecer contexto ao Copilot para o nosso próximo prompt.
 
-   <img width="700" alt="dicionário activities selecionado antes de abrir o inline chat" src="../images/activities-dict-highlighted.png" />
+   <img width="700" alt="dicionário activities selecionado antes de abrir o inline chat" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/activities-dict-highlighted.png?raw=true" />
 
 
 1. Abra o inline chat do Copilot usando o atalho de teclado `Ctrl + I` (Windows) ou `Cmd + I` (Mac).
@@ -188,7 +188,7 @@ Excelente trabalho corrigindo aquele bug e ampliando as atividades de exemplo! A
 
 1. Encontre o arquivo `app.py` e pressione o sinal `+` para reunir suas alterações na área de staging.
 
-   ![image](../images/staging-changes-icon.png)
+   ![image](https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/staging-changes-icon.png?raw=true)
 
 1. Acima da lista de alterações em staging, encontre a caixa de texto **Message**, mas **não digite nada** por enquanto.
    - Normalmente você escreveria aqui uma breve descrição das alterações, mas agora temos o Copilot para ajudar!

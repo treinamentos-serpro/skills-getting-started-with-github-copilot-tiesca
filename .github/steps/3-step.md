@@ -38,7 +38,7 @@ Vamos usar o Copilot para alterar o site e exibir as pessoas estudantes inscrita
 
 1. Na parte inferior da janela do Copilot Chat, use o menu suspenso para alternar para o modo **Agent**.
 
-   <img width="350" alt="image" src="../images/agent-mode-dropdown.png" />
+   <img width="350" alt="image" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/agent-mode-dropdown.png?raw=true" />
 
 1. Abra os arquivos relacionados à nossa página e arraste cada janela do editor (ou arquivo) para o painel do chat, informando ao Copilot que ele deve usá-los como contexto.
 
@@ -48,7 +48,7 @@ Vamos usar o Copilot para alterar o site e exibir as pessoas estudantes inscrita
 
    > 🪧 **Observação:** adicionar arquivos como contexto é opcional. Se você pular esta etapa, o Copilot Agent Mode ainda pode usar ferramentas como `#codebase` para buscar arquivos relevantes a partir do seu prompt. Adicionar arquivos específicos ajuda a apontar o Copilot na direção certa, o que é especialmente útil em bases de código maiores.
 
-   <img width="400" alt="imagem mostrando arquivos adicionados ao contexto" src="../images/files-added-to-context.png" />
+   <img width="400" alt="imagem mostrando arquivos adicionados ao contexto" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/files-added-to-context.png?raw=true" />
 
    > 💡 **Dica:** você também pode usar o botão **Add Context...** para fornecer outras fontes de contexto, como uma issue do GitHub ou o resultado de uma janela de terminal.
 
@@ -66,14 +66,14 @@ Vamos usar o Copilot para alterar o site e exibir as pessoas estudantes inscrita
 
    Usando os botões **Keep** mostrados abaixo, você pode aceitar/descartar todas as alterações ou revisar e decidir uma a uma. Isso pode ser feito tanto pelo painel do chat quanto ao inspecionar cada arquivo editado.
 
-      <img width="900" alt="botões para manter ou descartar alterações" src="../images/review-changes-buttons.png" />
+      <img width="900" alt="botões para manter ou descartar alterações" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/review-changes-buttons.png?raw=true" />
 
 
 1. Antes de simplesmente aceitar as alterações, verifique novamente nosso site e confirme se tudo foi atualizado como esperado.
    
    Aqui está um exemplo de card de atividade atualizado. Talvez seja necessário reiniciar a aplicação ou atualizar a página.
 
-   <img width="350" alt="Card de atividade com informações de participantes" src="../images/activity-card-with-participants.png" />
+   <img width="350" alt="Card de atividade com informações de participantes" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/activity-card-with-participants.png?raw=true" />
 
    > 🪧 **Observação:** seu card de atividade pode ficar diferente. O Copilot nem sempre produz os mesmos resultados.
 
@@ -99,11 +99,11 @@ Se você não obtiver o resultado desejado, pode tentar outros modelos ou dar re
 
 1. Confirme que o Copilot ainda está no modo **Agent**.
 
-   <img width="250" alt="agent mode" src="../images/agent-mode-dropdown.png" />
+   <img width="250" alt="agent mode" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/agent-mode-dropdown.png?raw=true" />
 
 1. Clique no ícone **Tools** e explore todas as ferramentas atualmente disponíveis para o Copilot Agent Mode.
 
-   <img width="250"  alt="ícone de tools" src="../images/tools-icon.png" />
+   <img width="250"  alt="ícone de tools" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/tools-icon.png?raw=true" />
 
 1. Hora do nosso teste! Vamos pedir ao Copilot que adicione a funcionalidade de remover participantes.
 

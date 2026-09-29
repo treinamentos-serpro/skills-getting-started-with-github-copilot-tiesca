@@ -30,7 +30,7 @@ Seu backend ainda está com zero cobertura de testes. Use o **Plan Agent** para 
 
 1. Abra o painel do **Copilot Chat** e alterne para o **Plan Agent**.
 
-   <img width="350" alt="image" src="../images/plan-mode-dropdown.png" />
+   <img width="350" alt="image" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/plan-mode-dropdown.png?raw=true" />
 
 
 1. Vamos começar com um prompt amplo e o Copilot nos ajudará a preencher os detalhes:
@@ -64,7 +64,7 @@ Seu backend ainda está com zero cobertura de testes. Use o **Plan Agent** para 
 
 1. Revise o plano proposto e, quando estiver satisfeito, clique em **Start implementation** para repassar ao **Agent Mode**.
 
-   <img width="350" alt="image" src="../images/plan-mode-start-implementation.png" />
+   <img width="350" alt="image" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-tiesca/blob/main/.github/images/plan-mode-start-implementation.png?raw=true" />
 
    Note que clicar no botão alternou do **Plan** para o **Agent Mode**. Deste ponto em diante, o Copilot pode editar sua base de código, como antes.
 
